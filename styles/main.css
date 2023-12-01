@@ -1,0 +1,160 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+ 
+.pageHeader {
+    color: aliceblue;
+    width: 100%;
+    height: 150px;
+    background-image: url("https://images3.alphacoders.com/132/1325254.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 90%;
+    font-size: 25px;
+    border-bottom: solid #022D51 20px;
+    text-shadow: 2px 2px 4px #022D51;
+}
+
+/*FISH Container and Card Items */
+#fishListContainer {
+    display: flex;
+    width: 70%;
+}
+
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fishHeader {
+    width: 100%;
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.fish-card {
+    background-color: #70B0C8;
+    border: solid #022D51 4px;
+    border-radius: 15px;
+    width: 200px;
+    height: 225px;
+    padding: 4% 0;
+    margin: 10px;
+    font-size: 18px;  
+
+}
+
+.fish__image {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.fish__name {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 4px;
+    
+}
+
+
+/*TIPS Container and Items */
+ #tipsContainer {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    border: solid #70B0C8 4px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 0 20px 10px 10px;
+ }
+
+ .tipsList {
+    width: 100%;
+ }
+
+ #waterQuaility {
+    align-items: center;
+ }
+
+ ul {
+   text-align: left;
+   margin-top: 0;
+ }
+
+ h4 {
+    text-decoration: underline;
+    margin-bottom: 5px;
+ }
+
+ h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+ }
+ 
+ /*Quotes Container and quotes */
+ #quotesContainer {
+    color: aliceblue;
+    width: 100%;
+    margin: 40px 0 20px 0;
+    padding-bottom: 15px;
+    background-color: #022D51;
+ }
+
+ #quotes-header {
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+ }
+
+.quote {
+    margin-bottom: 5px;
+}
+
+ /*LOCATIONS Container and items */
+ #locationsContainer {
+    width: 100%;
+ }
+
+ .locationsList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+ .locationsHeader {
+    width: 100%;
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+ .location-card {
+    border: solid #022D51 4px;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    padding: 20px 0;
+    margin: 10px;
+    font-size: 19px;  
+ }
+
+ .location-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
