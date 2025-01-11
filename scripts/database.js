@@ -24,7 +24,7 @@ const database = {
             species: "Suckermouth Catfish",
             length: 10,
             location: "Brazil",
-            food: "algea"
+            food: "algae"
         },
         {
             image: "images/jaguar-cichlid.png",
