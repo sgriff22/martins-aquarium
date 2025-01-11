@@ -9,7 +9,7 @@ export const tipList = () => {
     let htmlString = `<h4 class="conditionsHeader">Water Conditions</h4>`
 
 
-    // Create HTNL representations of each fish here
+    // Create HTML representations of each fish here
     for (const tip of tips) {
 
         // Why is there a backtick used for this string? For string notation
